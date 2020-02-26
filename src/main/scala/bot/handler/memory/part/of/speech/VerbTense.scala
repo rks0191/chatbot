@@ -1,4 +1,4 @@
-package bot.memory.part.of.speech
+package bot.handler.memory.part.of.speech
 
 sealed trait VerbTense
 

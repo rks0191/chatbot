@@ -1,4 +1,4 @@
-package bot.memory.definition
+package bot.handler.memory.definition
 
 import bot.connections.Attribute
 

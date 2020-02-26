@@ -1,6 +1,6 @@
-package bot.memory
+package bot.handler.memory
 
-import bot.memory.definition.{Definition, Synonym, Word}
+import bot.handler.memory.definition.{Definition, Synonym, Word}
 
 object Utils {
   def findReplacements(word:       String,

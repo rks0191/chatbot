@@ -1,6 +1,6 @@
-package bot.memory.definition
+package bot.handler.memory.definition
 
-import bot.memory.part.of.speech.{Irrelevant, PartOfSpeech}
+import bot.handler.memory.part.of.speech.{Irrelevant, PartOfSpeech}
 
 case class Definition(word:     Word,
                       synonyms: Set[Synonym] = Set.empty) {

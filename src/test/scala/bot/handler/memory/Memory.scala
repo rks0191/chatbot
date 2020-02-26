@@ -1,4 +1,4 @@
-package bot.memory
+package bot.handler.memory
 
 import org.scalatest.FlatSpec
 

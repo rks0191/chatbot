@@ -1,6 +1,6 @@
-package bot.memory.storage
+package bot.handler.memory.storage
 
-import bot.memory.Trie
+import bot.handler.memory.Trie
 
 trait Printer[T] {
   def print(t: T): Unit

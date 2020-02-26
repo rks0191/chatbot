@@ -1,8 +1,8 @@
-package bot.memory.definition
+package bot.handler.memory.definition
 
 import bot.connections.Attribute
-import bot.memory.part.of.speech.{Irrelevant, PartOfSpeech}
-import bot.memory.{Utils, definition}
+import bot.handler.memory.part.of.speech.{Irrelevant, PartOfSpeech}
+import bot.handler.memory.{Utils, definition}
 
 import scala.util.matching.Regex
 

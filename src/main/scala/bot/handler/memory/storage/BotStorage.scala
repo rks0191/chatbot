@@ -1,9 +1,9 @@
-package bot.memory.storage
+package bot.handler.memory.storage
 
 import bot.connections.Attribute
 import bot.learn.{PossibleReply, SearchResponses}
-import bot.memory.Trie
-import bot.memory.definition.{Definition, PartOfSentence}
+import bot.handler.memory.Trie
+import bot.handler.memory.definition.{Definition, PartOfSentence}
 
 import scala.annotation.tailrec
 
