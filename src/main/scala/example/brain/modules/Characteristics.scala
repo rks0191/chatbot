@@ -1,6 +1,6 @@
 package example.brain.modules
 
-import bot.memory.Characteristic
+import bot.handler.memory.Characteristic
 
 case object NameAttr    extends Characteristic
 case object AgeAttr     extends Characteristic

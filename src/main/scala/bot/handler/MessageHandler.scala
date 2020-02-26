@@ -2,8 +2,8 @@ package bot.handler
 
 import bot.connections.Attribute
 import bot.learn.PossibleReply
-import bot.memory.Trie
-import bot.memory.storage.BotStorage
+import bot.handler.memory.Trie
+import bot.handler.memory.storage.BotStorage
 
 import scala.collection.mutable
 import scala.util.Random

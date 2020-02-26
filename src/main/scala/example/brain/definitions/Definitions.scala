@@ -1,6 +1,6 @@
 package example.brain.definitions
 
-import bot.memory.definition.{AcceptableForm, Definition, Synonym, Word}
+import bot.handler.memory.definition.{AcceptableForm, Definition, Synonym, Word}
 
 import scala.language.implicitConversions
 import scala.util.matching.Regex

@@ -1,8 +1,8 @@
 package example.brain
 
 import bot.learn.RepliesLearner._
-import bot.memory.Trie
-import bot.memory.definition.SimpleWord
+import bot.handler.memory.Trie
+import bot.handler.memory.definition.SimpleWord
 import example.brain.definitions.Definitions
 import example.brain.modules.MasterModule
 

@@ -1,8 +1,8 @@
 package bot.learn
 
-import bot.memory.Trie
-import bot.memory.definition.{Definition, PartOfSentence}
-import bot.memory.storage.BotStorage
+import bot.handler.memory.Trie
+import bot.handler.memory.definition.{Definition, PartOfSentence}
+import bot.handler.memory.storage.BotStorage
 
 object RepliesLearner {
   def learn(trie:       Trie,

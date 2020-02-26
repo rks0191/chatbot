@@ -2,7 +2,7 @@ package bot.handler
 
 import bot.connections.Attribute
 import bot.handler.Source.{Bot, Human}
-import bot.memory.Trie
+import bot.handler.memory.Trie
 import cats.data.NonEmptyList
 
 import scala.util.Random

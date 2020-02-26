@@ -1,7 +1,7 @@
-package bot.memory
+package bot.handler.memory
 
 import bot.learn.PossibleReply
-import bot.memory.definition.{Definition, Node, PartOfSentence, SimpleWord}
+import bot.handler.memory.definition.{Definition, Node, PartOfSentence, SimpleWord}
 
 /**
   *
