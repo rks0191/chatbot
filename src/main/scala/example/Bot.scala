@@ -24,7 +24,7 @@ case class Bot[F[_]](minKnowledgeThreshold: Int) extends Manager with MessageHan
 
       message match {
         case "QUIT"                => acquaintances.add(currentSessionInformation.toMap)
-        case "Do you remember me?" =>
+        case "Login to the portal" =>
           val possibleMatches = acquaintances.tryMatch(currentSessionInformation.toList, minKnowledgeThreshold)
 
           possibleMatches
@@ -46,7 +46,6 @@ case class Bot[F[_]](minKnowledgeThreshold: Int) extends Manager with MessageHan
     go(sessionInformation)
   }
 
-  //TODO this is rather tricky - have maybe a separate brain module which deals with remembering people ...? More generic this way
   @tailrec
   final def matcher(people:   List[Map[Attribute, String]],
                     sessionInformation: SessionInformation): Matcher = {
@@ -56,7 +55,7 @@ case class Bot[F[_]](minKnowledgeThreshold: Int) extends Manager with MessageHan
       (None, sessionInformation.addBotMessage(response))
     }
     else {
-      val botMsg = "Does this represent you: " + people.head
+      val botMsg = "Please enter the login credential: " + people.head
         .filterNot(currentSessionInformation.toList.contains)
         .maxBy(_._1.weight)._2
       println(botMsg)
